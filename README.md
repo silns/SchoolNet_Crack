@@ -1,4 +1,4 @@
-![SNCrack](http://github.com/silns/schoolnet_crack/head.jpg)
+![SNCrack](https://github.com/silns/SchoolNet_Crack/blob/master/head.jpg)
 
 鉴于学校电信月租贵、寒暑假不能停用、网络共享240分钟的情况，我写了这样一个工具，可以收集很多账号，然后提供账号的人没用时其他人可以暂时使用他们的账号来上网
 
