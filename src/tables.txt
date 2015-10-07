@@ -1,0 +1,37 @@
+CREATE TABLE accounts(
+stuno INT PRIMARY KEY,
+name VARCHAR(20) NOT NULL,
+phone VARCHAR(11) UNIQUE KEY,
+pswd VARCHAR(20) NOT NULL,
+online INT DEFAULT 0,
+ip VARCHAR(15),
+jsessionid VARCHAR(50)
+)CHARSET=utf8;
+
+INSERT INTO accounts VALUES(学号, '某某某', '天翼号码', '登录密码', 0, '', '');
+比如：
+INSERT INTO accounts VALUES(2010112233, '谁谁谁', '12345678900', '123456', 0, '', '');
+
+
+
+
+CREATE TABLE students(
+stuno INT PRIMARY KEY,
+name VARCHAR(20) NOT NULL
+) CHARSET='utf8';
+
+INSERT INTO students VALUES(授权码, '授权用户');
+例如：
+INSERT INTO students VALUES(112233, '某某某');
+
+
+
+CREATE TABLE history(
+stuno1 INT NOT NULL,
+phone VARCHAR(11) NOT NULL,
+usetime VARCHAR(25) NOT NULL,
+ip VARCHAR(15) NOT NULL
+);
+
+
+
